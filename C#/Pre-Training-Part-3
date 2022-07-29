@@ -1,0 +1,50 @@
+using System;
+
+namespace OnEgitimDay2._1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Faktöriyel Hesaplama
+
+            // 2 Farklı yöntem ile faktriyel hesaplamasını yaptık 1- for ile  1-recursive ile
+
+            Console.WriteLine("Kaç sayının faktöriyelini hesaplamak istiyorsunuz?");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 0; i <= sayi; i++)
+            {
+                //2 farklı teknik ile yazdırma, 2'si de aynı sonucu verir
+                Console.WriteLine("{0} sayısının faktöriyeli : {1}",i, recursiveFaktoriyel(i));
+                Console.WriteLine($"{i} sayısının faktöriyeli : {recursiveFaktoriyel(i)}");
+            }
+
+            Console.ReadLine();
+        }
+
+         static long Faktoriyel(int i)
+        {
+            long faktoriyel = 1;
+            for (int j = 1; j <= i; j++)
+            {
+                faktoriyel = faktoriyel * j;
+            }
+            return faktoriyel;
+        }
+
+        static long recursiveFaktoriyel(int i)
+        {
+            if (i<=1)
+            {
+                return 1;
+            }
+            else
+            {
+                return (i * recursiveFaktoriyel(i - 1));
+            }
+        }
+
+
+    }
+}
