@@ -1,0 +1,16 @@
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.exe
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.deps.json
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.runtimeconfig.json
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.runtimeconfig.dev.json
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.dll
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\ref\OnEgitim.dll
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\bin\Debug\net5.0\OnEgitim.pdb
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.csprojAssemblyReference.cache
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.AssemblyInfoInputs.cache
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.AssemblyInfo.cs
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.csproj.CoreCompileInputs.cache
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.dll
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\ref\OnEgitim.dll
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.pdb
+C:\Users\vtopa\source\repos\IstanbulAkademi\OnEgitim\OnEgitim\obj\Debug\net5.0\OnEgitim.genruntimeconfig.cache
