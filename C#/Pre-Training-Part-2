@@ -1,0 +1,115 @@
+using System;  //Console uygulaması default olarak System sınıfını kullanıyor
+
+namespace OnEgitimDay2 
+{
+    public class Program
+    {
+        public static int[] sayilar = { 10, 23, 77, 18, 34 };
+        public static string[] isimler = { "Ahmet", "Mehmet", "Ayşe", "Fatma" };
+        public static string[] meyveler = { "Elma", "Armut", "Muz", "Karpuz", "Erik", "Üzüm" };
+        public static int sayac = 0;
+
+        static void Main(string[] args)
+        {
+            //While-DoWhile-For-Foreach
+            //Dongular ==> Bir iş parçacığının istenilen sayida tekrar calistirilmasına verilen isimdir.
+
+            do
+            {
+                Console.WriteLine("Menu");
+                Console.WriteLine(" 1 : While Dongusu\n 2 : Do-While Dongusu\n 3 : For Dongusu\n 4 : Foreach Dongusu");
+
+                Console.WriteLine("*********************");
+                Console.Write("Lütfen 1 ile 4 arasinda ki Seçiminizi Giriniz :");
+
+                int secim = 0;
+                try
+                {
+                    secim = Convert.ToInt32(Console.ReadLine());
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine("Numerik bir değer giriniz");
+                }
+
+
+
+
+                //Switch Case
+                switch (secim)
+                {
+                    case 1:
+                        WhileDongusu();
+                        break;
+                    case 2:
+                        DoWhileDongusu();
+                        break;
+                    case 3:
+                        ForDongusu();
+                        break;
+                    case 4:
+                        ForeachDongusu();
+                        break;
+                    default:
+                        Console.WriteLine("Hatalı Giriş Yaptınız!");
+                        break;
+                }
+
+                Console.WriteLine("Tekrar oynamak istiyorsanız 'e' ye basiniz.");
+                string cevap = Console.ReadLine();
+                if (cevap.ToLower() != "e")
+                {
+                    Console.WriteLine("Gorusmek uzere...");
+                    break;
+                }
+                //Console.ReadKey();
+
+            } while (true);
+
+        }
+    
+    
+        static void WhileDongusu()
+        {
+            //Console.WriteLine("While dongusunu calistirdiniz");
+            Console.WriteLine("While dongusu sonuclari");
+            Console.WriteLine("***********************");
+            while (sayac < sayilar.Length)
+            {
+                Console.WriteLine(sayilar[sayac]);
+                sayac++;
+            }
+        }
+
+        static void DoWhileDongusu()
+        {
+            Console.WriteLine("Do-While dongusu sonuclari");
+            Console.WriteLine("***********************");
+            do
+            {
+                Console.WriteLine(isimler[sayac]);
+            } while (sayac < isimler.Length);
+        }
+
+        static void ForDongusu()
+        {
+            Console.WriteLine("For dongusu sonuclari");
+            Console.WriteLine("***********************");
+            for (int i = 0; i < meyveler.Length; i++)
+            {
+                Console.WriteLine(meyveler[i]);
+            }
+        }
+
+        static void ForeachDongusu()
+        {
+            Console.WriteLine("Foreach dongusu sonuclari");
+            Console.WriteLine("***********************");
+            foreach (var item in meyveler)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+}
