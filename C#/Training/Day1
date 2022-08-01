@@ -1,0 +1,446 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Demo_Istanbul_Akademi
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * double sayi1 = 0, sayi2 = 0, sonuc = 0;
+            Console.WriteLine("İlk sayıyı giriniz:");
+            sayi1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("İkinci sayıyı giriniz:");
+            sayi2 = Convert.ToDouble(Console.ReadLine());
+            sonuc = sayi1 + sayi2;
+            Console.WriteLine("Sonuc= {0}",sonuc.ToString());
+            Console.ReadKey();
+            */
+
+            //Klavyeden veri girişleri
+            /*
+            string city, country;
+            Console.Write("Lütfen şehir bilgisi giriniz:");
+            city = Console.ReadLine();
+            Console.Write("Lütfen şehir bilgisi giriniz:");
+            country = Console.ReadLine();
+            Console.WriteLine("Girdiğiniz şehir:" + city + " "+ country);
+            */
+
+            //Sayısal türler
+            //Dönüşüm
+            /*
+            int sayi;
+            Console.WriteLine("Sayıyı giriniz:");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Girdiğiniz sayı:" + sayi);
+            */
+            /*
+            int sayi2;
+            Console.Write("Sayıyı giriniz");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write(sayi2);
+            */
+            /*
+            double sayi;
+            Console.Write("Sayıyı giriniz");
+            sayi = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(sayi);
+            */
+
+            // Karar Yapıları
+
+            //Operatrler
+            // = + * - /
+
+            // () methodlar
+
+            // == eşit mi
+            // != eşit değilse
+            // && and
+            //    or
+            // > >=
+            // < <=
+
+
+            // % mod alma
+
+
+            /*
+            string password;
+            Console.WriteLine("şifre girin:");
+            password = Console.ReadLine();
+            if (password == "abcd")
+            {
+                Console.WriteLine("Şifre başarılı");
+            }
+            else
+            {
+                Console.WriteLine("Şifre hatalı");
+            }
+            */
+
+            //migrations
+
+            /*
+            int sayi;
+            Console.WriteLine("Sayıyı girin:");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            if (sayi == 5)
+            {
+                Console.WriteLine("doğru");
+            }
+            else
+            {
+                Console.WriteLine("yanlış");
+            }
+            */
+
+            //girilen 2 sayıyı toplayan ve toplam sonucu 50'den büyükse  "50'den büyük" değilse "50'den küçük" yazdıran kod
+
+            /*
+           int sayi1=0, sayi2 = 0, sonuc = 0;
+           Console.WriteLine("İlk sayıyı giriniz:");
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+           Console.WriteLine("İkinci sayıyı giriniz:");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+            sonuc = sayi1 + sayi2;
+            if (sonuc > 50)
+            {
+                Console.WriteLine("50'den büyük");
+            }
+            else
+            {
+                Console.WriteLine("50'den küçük");
+            }
+              */
+
+
+            // klavyeden girilen 3 basamaklı sayıyı basamaklarına ayırıp basamakları toplayan kodu yazınız
+            /*
+            int sayi, yuzler, onlar, birler, toplam;
+            Console.WriteLine("3 Basamaklı bir sayı giriniz");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            yuzler = sayi / 100;
+            birler = sayi % 10;
+            onlar = (sayi / 10) % 10;
+            toplam = yuzler + onlar + birler;
+            Console.WriteLine(toplam);
+            */
+
+
+
+            //Switch Case
+
+            /*
+            int sayi;
+            Console.WriteLine("Sayı giriniz");
+            sayi = Convert.ToInt32(Console.ReadLine());
+            switch (sayi)
+            {
+                case 5: Console.WriteLine("beş"); break;
+                case 10: Console.WriteLine("on"); break;
+                case 15: Console.WriteLine("onbeş");break;
+                case 20: Console.WriteLine("yirmi"); break;
+
+                default: Console.WriteLine("Sayı bulunamadı"); break;
+            
+            }
+            */
+
+
+
+
+            // For - While - Foreach - Do While
+
+            // web --> ekleme silme güncelleme listeleme
+            // arama --> listeleme
+
+            // Döngüler
+
+            /*
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("Merhaba Dünya");
+            }
+            */
+
+            /*
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+            */
+
+            /*
+            for (int i = 1; i <= 30; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            */
+
+            //Bir bakteri türü her saatin sonunda kendini 2'ye bölerek çoğalıyor, yeni oluşan bakteriler de aynı şekilde 2'ye bölerek çoğalmaya devam ediyor, 24 saatin sonunda bu ortamda kaç yane bakteri olur
+            /*
+            int bakteri = 1;
+            for (int i = 1; i <= 24; i++)
+            {
+                bakteri *= 2;
+            }
+            Console.WriteLine(bakteri);
+            */
+
+
+            // 1 ile 120 arasında 5'e ve 7'ye tam bölünen sayılar listesi
+            // 1 ile 120 arasında 5'e ve 7'ye tam bölünen sayıların toplamı
+
+            /*
+            int toplam = 0;
+            for (int i = 1; i <= 120; i++)
+            {
+                if (i % 5  == 0 && i % 7 == 0)
+                {
+                    Console.WriteLine(i);
+                    toplam += i;
+                }
+            }
+            Console.WriteLine("Toplam : " + toplam);
+            */
+
+
+            // While --> şart sağlandığı sürece
+
+            /*
+            int sayi = 1;
+            while (sayi<=100)
+            {
+                Console.WriteLine("Merhaba");
+                sayi++;
+            }
+            */
+
+
+            // 1 ile 20 arasındaki çift sayıları toplayan kod while ile yazın
+            /*
+            int sayi = 1;
+            int toplam = 0;
+            while (sayi<=20)
+            {
+                if (sayi % 2 == 0)
+                {
+                    toplam = toplam + sayi;
+                }
+                sayi++;
+            }
+            Console.WriteLine("Toplam: " + toplam);
+            */
+
+
+            // Diziler
+
+            // []
+
+            // index --> 0'dan başlar
+
+            // boyut =>  son index + 1
+
+            // {}
+
+            // string[] sehirler = { "adana", "bursa", "ankara", "afyon", "istanbul" };
+
+            //Console.WriteLine(sehirler[2]);
+            //Console.WriteLine(sehirler[5]);
+
+            /*
+            string[] sehirler = { "adana", "bursa", "ankara", "afyon", "istanbul" };
+
+            for (int i = 0; i < sehirler.Length; i++)
+            {
+                Console.WriteLine(sehirler[i]);
+            }
+            */
+
+            /*
+            string[] kisiler = { "ali", "ayse", "hasan", "mehmet", "yilmaz", "tugce" };
+            for (int i = 0; i < kisiler.Length; i++)
+            {
+                Console.WriteLine(kisiler[i]);
+            }
+            */
+
+
+            // Foreach (1 2 3 4)
+            /*
+             * 1: Değişken türü
+             * 2: Değişken isim
+             * 3: In
+             * 4: Dizi adı
+            */
+
+            /*
+            string [] sehirler = {"paris", "ankara", "bursa", "londra", "kiev"};
+            foreach (string item in sehirler)
+            {
+                Console.WriteLine(item);
+            }
+            */
+
+
+            /*
+            int[] sayilar = { 45, 85, 65, 22, 36, 74, 147 };
+            foreach (int item in sayilar)
+            {
+                if (item % 3 == 0)
+                {
+                    Console.WriteLine(item);
+                }
+            }
+            */
+
+
+            // OLuşturduğunuz 10 elemanlı bir tam sayı dizisinde 3 ve 5 'e tam bölünebilen sayıların toplamını hesaplayan kodu yazın
+
+            /*
+            int toplam = 0;
+            int[] sayilar = { 45, 85, 65, 22, 36, 74, 147, 76, 97, 47 };
+            foreach (int item in sayilar)
+            {
+                if (item % 3 == 0 && item % 5 == 0)
+                {
+                    toplam = toplam + item;
+                }
+            }
+            Console.WriteLine("Toplam :" + toplam);
+            */
+
+
+
+            //Yıldızlarla şekil oluşturma
+
+            /*
+            *****
+            *****
+            *****
+            *****
+            *****
+            */
+
+            /*
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine("*****");
+            }
+            Console.ReadLine();
+            */
+
+
+
+            /*
+             * 
+             * *
+             * **
+             * ***
+             * ****
+            */
+
+            /*
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            */
+
+
+
+
+            // METOTLAR
+
+            // Metotlar 1: Geriye değer döndürmeyen (void)
+            // Metotlar 2: Geriye değer döndüren (return)
+
+            // access modifier --> erişim belirleyici (belirteci)
+
+            // Public - Private   
+
+
+            // Void
+
+            /*
+            void yazdir()
+            {
+                Console.WriteLine("Merhaba hoşgeldiniz");
+                Console.WriteLine("Şirketimiz sizlere hizmet veriyor");
+                Console.WriteLine("Bugün hava: 24 derece");
+                Console.WriteLine(DateTime.Now.ToShortDateString());
+                Console.WriteLine(DateTime.Now.ToShortTimeString());
+            }
+            */
+
+            /*
+            string name, surname, job;
+            Console.WriteLine("Adınız: ");
+            name = Console.ReadLine();
+            Console.WriteLine("Soydınız: ");
+            surname = Console.ReadLine();
+            Console.WriteLine("Meslepiniz: ");
+            job = Console.ReadLine();
+
+            Console.WriteLine(name + " "+ surname + " " + job);
+            yazdir();
+            */
+
+            /*
+            string ulke, baskent;
+            Console.WriteLine("Ulke: ");
+            ulke = Console.ReadLine();
+            Console.WriteLine("Adınız: ");
+            baskent = Console.ReadLine();
+            Console.WriteLine(ulke + " " + baskent);
+            yazdir();
+            */
+
+
+
+            // Bir Metot oluşturun
+            // Metodun içinde 3 tane mesaj olsun
+            // Metodun içinde anlık tarih
+            // metodun içinde anlık saat bilgisi alsın
+            // Metodu çağırın
+
+
+            /*
+            void Ucus()
+            {
+                Console.WriteLine("Velit Havayollarına Hoşgeldiniz");
+                Console.WriteLine("Şirketimiz sizlere en iyi uçuş deneyimini sağlamak için hizmetinizdedir");
+                Console.WriteLine("İyi uçuşlar dileriz");
+                Console.WriteLine(DateTime.Now.ToShortDateString());
+                Console.WriteLine(DateTime.Now.ToShortTimeString());
+            }
+
+            string name, surname, gidilecekYer;
+            Console.WriteLine("İsminiz :");
+            name = Console.ReadLine();
+            Console.WriteLine("Soyadınız");
+            surname = Console.ReadLine();
+            Console.WriteLine("Gideceğiniz Şehir: ");
+            gidilecekYer = Console.ReadLine();
+            Console.WriteLine("Sayın " + name + " " + surname);
+            Ucus();
+            Console.WriteLine(gidilecekYer + " uçuşumuz için bagajınızı teslim edebilirsiniz.");
+            */
+
+            Console.ReadLine();
+        }
+    }
+}
